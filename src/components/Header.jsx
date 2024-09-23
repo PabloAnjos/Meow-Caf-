@@ -22,9 +22,9 @@ export function Header() {
                     <img src={meowImg} alt="Logo Meow" />
                     <h1 className='font-medium text-text-color-dark text-2xl'>Meow Café</h1>
                     <ul className='flex gap-5 ml-10'>
-                        <li className='text-Headings-color font-medium text-xl'>Início</li>
-                        <li className='text-Headings-color font-medium text-xl'>Produtos</li>
-                        <li className='text-Headings-color font-medium text-xl'>Sobre</li>
+                        <li className='text-Headings-color font-medium text-xl'><a href="#" className='hover:text-pink-color-2'>Início</a></li>
+                        <li className='text-Headings-color font-medium text-xl'><a href="#" className='hover:text-pink-color-2'>Produtos</a></li>
+                        <li className='text-Headings-color font-medium text-xl'><a href="#" className='hover:text-pink-color-2'>Sobre</a></li>
                     </ul>
                 </nav>
             </header>
